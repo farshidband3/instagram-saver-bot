@@ -15,7 +15,7 @@
       "required": "true",
       "value": ""
     },
-    "API_TOKEN": {
+    "token": {
       "description": "Telegram robot token for launch .",
       "required": "true",
       "value": ""
