@@ -1,32 +1,25 @@
 {
-    "name": "Telegram Video Watermark Adder Bot",
-    "description": "A Telegram Video Watermark Adder Bot in Pyrogram by @AbirHasan2005",
-    "keywords": [
-        "telegram",
-        "files",
-        "store",
-        "bot"
-    ],
-    "repository": "https://github.com/AbirHasan2005/Watermark-Bot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
-    "env": {
-          "API_TOKEN": {
-            "description": "Get this from @BotFather XD"
-        },
-    "buildpacks": [ 
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }, 
-        { 
-            "url": "heroku/python"
-        }
-    ],
-    "stack": "heroku-20",
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+  "name": "Telegram Streamer File",
+  "description": "Robot to convert files to direct links, hosting files on Telegram servers, unlimited and without restrictions",
+  "website": "https://t.me/s/userlandapp",
+  "repository": "https://github.com/musa-42/stream-cloud",
+  "logo": "https://newdlstar.herokuapp.com/44c01",
+  "env": {
+    "api_id": {
+      "description": "api_id Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": ""
+    },
+    "api_hash": {
+      "description": "api_hash Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": ""
+    },
+    "token": {
+      "description": "Telegram robot token for launch .",
+      "required": "true",
+      "value": ""
+    },
+    
+  }
 }
