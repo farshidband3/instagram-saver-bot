@@ -17,11 +17,6 @@
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
       "value": "ANYTHING"
     },
-    "SESSION_NAME": {
-      "description": "Keep this default",
-      "value": "AHCompressBot",
-      "required": true
-    },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
       "value": "",
@@ -36,12 +31,7 @@
       "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
-    },
-    "AUTH_USERS": {
-      "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "715779594",
-      "required": false
-    },
+    },   
     "UPDATES_CHANNEL": {
       "description": "Do Force Sub! Add your Channel username which you want to do Force Sub. Read README.md file first!",
       "value": "",
