@@ -1,1 +1,1 @@
-worker: python3 docker-compose.yml
+worker: python3 main.py
